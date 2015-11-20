@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I'm the pastor of [Bible Baptist Church](http://biblebaptistmattoon.org) in Mattoon, IL.  I make websites for [sitesfor.church](http://sitesfor.church) and I host the weekly podcast [The Foolishness of Preaching](http://thefoolishnessofpreaching.com).  I use this site to write about things I care about - most often, I write about fundamentalism and church stuff.
 
-### More Information
+### You probably don't care
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm happily married to Amanda. I've got three wonderful kids (Audrey, Molly and Noah.)  I'm into woodworking, training for triathlons, and cooking pizza.  I was born and raised in New England and am a die hard New England Patriots fan.  I don't follow other sports too closely.  I try to be as apolitical as possible.
 
-### Contact me
+### Get In Touch
 
-[email@domain.com](mailto:email@domain.com)
+[pastorryanhayden@gmail.com](mailto:pastorryanhayden@gmail.com)
+[Twitter](https://twitter.com/rynhayden)
+[Facebook](https://www.facebook.com/pastorhayden)
