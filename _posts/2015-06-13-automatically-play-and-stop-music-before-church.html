@@ -1,0 +1,52 @@
+---
+layout: post
+status: publish
+published: true
+title: Automatically play and stop music before church
+author: Ryan Hayden
+  
+  
+  
+  
+
+
+
+wordpress_id: 2177
+wordpress_url: http://www.pastorryanhayden.com/?p=2177
+date: '2015-06-13 14:02:57 -0500'
+date_gmt: '2015-06-13 19:02:57 -0500'
+categories:
+- Ministry Tech
+tags:
+- tech tips
+- sound
+- automator
+---
+<p>Last week, I showed you a really cool and super easy way to record your sermons and convert them to MP3s automatically. Today, I wanted to show something else I've figured out along the same lines...</p>
+<p>I like to have music playing in our church as people mingle before the service. Just like with recording the sermons, there is the human error component and the sound guys often forget this. So I thought, ""I wonder if there is a way to automate that too?""</p>
+<p>Audio Hijack is great for scheduling recordings, but it won't work for scheduling music to play (as far as I know.) So to do this - you have to use automator.</p>
+<p>Here's how it works:</p>
+<h2>First, set up a playlist of pre-church music in iTunes.</h2><br />
+(The computer in my office has zero music, so in the example, there is Patch the Pirate stuff.)</p>
+<p><a href="http://www.pastorryanhayden.com/wp-content/uploads/iTunes_and_Add_New_Post_&lsaquo;_Pastor_Ryan_Hayden_&mdash;_WordPress.png"><img class="alignnone size-medium wp-image-2178" src="http://www.pastorryanhayden.com/wp-content/uploads/iTunes_and_Add_New_Post_&lsaquo;_Pastor_Ryan_Hayden_&mdash;_WordPress-300x288.png" alt="iTunes_and_Add_New_Post_&lsaquo;_Pastor_Ryan_Hayden_&mdash;_WordPress" width="300" height="288" /></a></p>
+<h2>Second, launch automator and choose new -> Calendar Alarm.</h2><br />
+<a href="http://www.pastorryanhayden.com/wp-content/uploads/Untitled.png"><img class="alignnone size-medium wp-image-2179" src="http://www.pastorryanhayden.com/wp-content/uploads/Untitled-300x186.png" alt="Untitled" width="300" height="186" /></a></p>
+<p>This is the recipe you will use:</p>
+<ul>
+<li>Launch Application -> iTunes</li>
+<li>Get Specified iTunes Items -> choose your prechurch playlist</li>
+<li>Play iTunes Playlist (you can choose shuffle if you like.)</li><br />
+</ul><br />
+That's it. Just save it.</p>
+<p><a href="http://www.pastorryanhayden.com/wp-content/uploads/start_prechurch_music.png"><img class="alignnone size-medium wp-image-2180" src="http://www.pastorryanhayden.com/wp-content/uploads/start_prechurch_music-300x260.png" alt="start_prechurch_music" width="300" height="260" /></a></p>
+<hr />
+<p>Now, you might get weirded out, because two things will happen:</p>
+<p><strong>First, your playlist will start playing automatically.</strong> You can just turn it off, no problem.</p>
+<p><strong>Second, it will open Calendar and you'll see a new calendar called "Automator" and a new event called whatever you saved the Automator workflow as.</strong> The time and date will be at whatever time and date you saved the automator file.</p>
+<h1>Third, set the alarm up in Calendar</h1><br />
+Now, all you have to do is change the time and date to when you want the music to start before the service and set it up to repeat weekly.</p>
+<p><a href="http://www.pastorryanhayden.com/wp-content/uploads/Calendar.png"><img class="alignnone size-medium wp-image-2181" src="http://www.pastorryanhayden.com/wp-content/uploads/Calendar-300x234.png" alt="Calendar" width="300" height="234" /></a></p>
+<p>You now never have to ask the sound guy to start the music again and if you want to change the prechurch music, just put different music in that iTunes playlist. Easy peasy.</p>
+<h2>Bonus: Set up an alarm that stops the music right before the service</h2><br />
+If you want to stop the music right before the service automatically, just create another Automator Calendar alarm and add one item to it - Pause iTunes. Then save it and set it up in iTunes to whatever time and date you want and set it to repeat weekly.</p>
+<p><a href="http://www.pastorryanhayden.com/wp-content/uploads/stop_music.png"><img class="alignnone size-medium wp-image-2182" src="http://www.pastorryanhayden.com/wp-content/uploads/stop_music-300x259.png" alt="stop_music" width="300" height="259" /></a></p>
